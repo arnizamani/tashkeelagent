@@ -1,5 +1,5 @@
 # TashkeelAgent
-**An AI-Powered Agent for Automatic Arabic Text Diacritization**
+**An AI Agent for Automatic Arabic Text Diacritization**
 
 TashkeelAgent is an open-source tool designed to automatically add diacritics (*tashkeel*) to Arabic text using large language models (LLMs).
 It tackles one of the most challenging problems in Arabic NLP — producing accurate diacritization while preserving the original text exactly.
