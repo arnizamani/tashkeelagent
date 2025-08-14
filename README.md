@@ -40,6 +40,27 @@ However, applying LLMs to *tashkeel* introduces challenges:
 
 > 📌 To the best of our knowledge, TashkeelAgent is the first implementation of *agentic diacritization*, leveraging general-purpose LLMs rather than syntax-based systems or domain-specific neural models.
 
+## ✍️ Examples
+Here is a simple Arabic text without *tashkeel*:
+```markdown
+Arabic quotes:
+- **الوقت كالسيف إن لم تقطعه قطعك**
+
+- *الصبر مفتاح الفرج*
+```
+
+Here is the result of using *TashkeelAgent* to diacritize the text:
+```markdown
+Arabic quotes:
+- **الوقتُ كالسَّيْفِ إِنْ لَمْ تَقْطَعْهُ قَطَعَكَ**
+
+- *الصَّبْرُ مِفْتَاحُ الفَرَجِ*
+```
+
+This shows:
+- The agents may not diacritize every letter properly.
+- The document structure (in this case, markdown) is preserved.
+
 ---
 
 ## 🛠 Installation
