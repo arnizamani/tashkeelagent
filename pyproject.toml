@@ -1,0 +1,21 @@
+[project]
+name = "TashkeelAgent"
+version = "0.1.0"
+description = "TashkeelAgent: Automated Tashkeel for Arabic text using AI agents"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai>=1.99.9",
+    "openai-agents>=0.2.6",
+    "regex>=2025.7.34",
+    "tqdm>=4.67.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+]
